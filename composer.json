@@ -1,0 +1,22 @@
+{
+    "name": "solwin/ourteam",
+    "description": "Our Team extension helps to manage team member’s information on the website.",
+    "type": "magento2-module",
+    "version": "2.1.2",
+    "authors": [
+        {
+            "name": "Solwin",
+            "email": "stdabhoya@yahoo.com",
+            "homepage": "https://www.solwininfotech.com/",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Solwin\\Ourteam\\": ""
+        }
+    }
+}
